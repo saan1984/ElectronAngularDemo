@@ -87,6 +87,9 @@ var createInstaller = function () {
         gulpUtil.log('Installer ready!', releasesDir.path(finalPackageName));
         deferred.resolve();
     });
+    nsis.on('error', function( err ){
+        gulpUtil.log(err);
+    })
 
     return deferred.promise;
 };

@@ -1,1 +1,1 @@
-var indiaTaxApp = angular.module('indiaTaxApp', [])
+var indiaTaxApp = angular.module('myApp', [])

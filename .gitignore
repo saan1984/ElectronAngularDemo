@@ -6,6 +6,6 @@ Thumbs.db
 /build/
 /releases/
 /tmp/
-
+.idea
 build
 app/node_modules
